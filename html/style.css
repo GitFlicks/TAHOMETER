@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    overflow:hidden;
+    font-family: 'Oswald', sans-serif;
+    margin: 2.8%;
+}
+
+
+#container{
+    text-align: center;
+    width: 10%;
+    height: 8.60%;
+    background-color: rgba(5, 5, 5, 0.688);
+    border: 1px solid rgba(88, 88, 88, 0.518);
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    font-size: 0.68rem;
+    color:whitesmoke;
+}
+
+@media screen and (max-height: 864px) {
+    #container {
+      height: 12%;
+    }
+  }
